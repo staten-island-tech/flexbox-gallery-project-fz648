@@ -1,13 +1,18 @@
 html,
 body {
-  margin: 10;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
 }
-p {
-  box-sizing: content-box;
-  width: 80%;
-  border: solid #5b6dcd 10px;
-  padding: 5px;
+
+.parent {
+  display: flex;
+  font-size: 3rem;
+  justify-content: space-between;
+}
+
+.child {
+  border: 1px solid chocolate;
+  width: 33.33%;
 }
