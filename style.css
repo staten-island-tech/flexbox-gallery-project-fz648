@@ -12,12 +12,12 @@ h1 {
   text-align: center;
 }
 
-h2 {
+.Card-Title {
   font-size: 4rem;
 }
-.Row {
+.Flexbox {
   display: flex;
-  display: flexbox;
+  flex-wrap: wrap;
   font-size: 5rem;
   justify-content: space-evenly;
 }
@@ -25,12 +25,12 @@ h2 {
 .Card {
   text-align: center;
   border: 5px solid black;
-  width: 45rem;
+  width: 26%;
   margin: 5rem;
   box-shadow: black 2rem 2rem 2rem;
 }
 
-.img {
+.Card-img {
   padding: 1rem 0 1rem 0;
   width: 95%;
 }
