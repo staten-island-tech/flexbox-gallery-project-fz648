@@ -12,9 +12,6 @@ h1 {
   text-align: center;
 }
 
-.Card-Title {
-  font-size: 4rem;
-}
 .Flexbox {
   display: flex;
   flex-wrap: wrap;
@@ -28,6 +25,10 @@ h1 {
   width: 26%;
   margin: 5rem;
   box-shadow: black 2rem 2rem 2rem;
+}
+
+.Card-Title {
+  font-size: 4rem;
 }
 
 .Card-img {
