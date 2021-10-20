@@ -25,8 +25,28 @@ h1 {
   width: 26%;
   margin: 5rem;
   box-shadow: black 2rem 2rem 2rem;
+  transition: 0.5s;
 }
 
+#Card-1:hover {
+  transform: scale(1.2, 1.2);
+}
+#Card-2:hover,
+#Card-9:hover {
+  transform: rotate(0.99turn);
+}
+#Card-3:hover,
+#Card-8:hover {
+  transform: skew(20deg, 20deg);
+}
+#Card-4:hover,
+#Card-7:hover {
+  transform: scale(0.5) translate(-100%, -100%);
+}
+#Card-5:hover,
+#Card-6:hover {
+  transform: matrix(1, 2, 3, 4, 5, 6);
+}
 .Card-Title {
   font-size: 4rem;
 }
@@ -34,4 +54,44 @@ h1 {
 .Card-img {
   padding: 1rem 0 1rem 0;
   width: 95%;
+}
+.animation {
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  animation-name: fish;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+
+  color: red;
+}
+
+@keyframes fish {
+  0% {
+    left: 0%;
+    bottom: -60%;
+  }
+  100% {
+    left: 100%;
+    bottom: -60%;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    background-color: red;
+  }
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    background-color: blue;
+  }
 }
