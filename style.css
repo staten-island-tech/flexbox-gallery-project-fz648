@@ -64,8 +64,6 @@ h1 {
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
-
-  color: red;
 }
 
 @keyframes fish {
@@ -91,6 +89,9 @@ h1 {
 }
 @media (max-width: 812px) {
   body {
-    background-color: yellow;
+    background-color: skyblue;
+  }
+  .Card {
+    width: 60%;
   }
 }
